@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
              return res.status(400).json({ error: 'Bad Request: Missing "contents" in the request body.' });
         }
 
-        const googleApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;const googleApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
+        const googleApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
 
         // 4. Send the request to the Google API
         const googleResponse = await fetch(googleApiUrl, {
