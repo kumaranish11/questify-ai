@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://questify-ai-seven.vercel.app/sitemap.xml

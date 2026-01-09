@@ -1,0 +1,8 @@
+{
+  "name": "questify-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend dependencies for Questify AI",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
